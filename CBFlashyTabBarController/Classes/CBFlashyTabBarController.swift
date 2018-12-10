@@ -50,7 +50,7 @@ open class CBFlashyTabBarController: UITabBarController {
     }
 
     private var barHeight: CGFloat {
-        var height: CGFloat = 74
+        var height: CGFloat = 60
         if #available(iOS 11.0, *) {
             height += view.safeAreaInsets.bottom
         }
