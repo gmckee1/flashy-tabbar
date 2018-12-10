@@ -59,7 +59,7 @@ open class CBFlashyTabBar: UITabBar {
         backgroundColor = UIColor.white
         isTranslucent = false
         barTintColor = UIColor.white
-        tintColor = #colorLiteral(red: 0.1176470588, green: 0.1176470588, blue: 0.431372549, alpha: 1)
+        tintColor = UIColor(red:0.00, green:0.48, blue:1.00, alpha:1.0)
     }
 
     open override var items: [UITabBarItem]? {
